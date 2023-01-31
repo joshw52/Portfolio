@@ -1,0 +1,173 @@
+body {
+  font-family: "Lato", Arial;
+  font-size: 20px;
+  background-color: #050505;
+  color: #BFBFBF;
+  text-align: center;
+}
+
+h2 {
+  color: #CFCFCF;
+  font-family: "Roboto", Arial;
+  font-size: 52px;
+}
+
+h3 {
+  color: #77BBFF;
+  font-family: "Roboto", Arial;
+  font-size: 28px;
+}
+
+p {
+  color: #BFBFBF;
+  font-size: 24px;
+}
+
+a, a:visited, a:active {
+  color: #CFCFCF;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+hr {
+  border: 2px solid #BFBFBF;
+  width: 90%;
+}
+
+#nametopbar {
+  list-style-type: none;
+  color: #BFBFBF;
+  padding: 10px;
+  padding-left: 20px;
+  float: left;
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#topbar {
+  font-family: "Roboto", Arial;
+  background-color: #171717;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#topbar:hover #nametopbar {
+  color: #FFFFFF;
+}
+
+#topmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#topmenu li {
+  color: #BFBFBF;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#topmenu li:hover {
+  color: #FFFFFF;
+}
+
+#content {
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#intro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mephoto {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 300px;
+  border: 2px solid #9D9D9D;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .3s ease-in-out;
+}
+
+#mephoto:hover {
+  border: 2px solid #CFCFCF;
+}
+
+#portfolio {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects {
+  display: table;
+}
+
+#projectcol {
+  float: left;
+  width: 50%;
+}
+
+#portproject {
+  width: 80%;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #CFCFCF;
+  border: 2px solid #9D9D9D;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+
+#portproject img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#projectOverlay {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  border-radius: 10px;
+}
+
+#portproject:hover #projectOverlay {
+  opacity: 1;
+}
+
+#portproject:hover {
+  border: 2px solid #CFCFCF;
+}
+
+#projectDescription {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 32px;
+}

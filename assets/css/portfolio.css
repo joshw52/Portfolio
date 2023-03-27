@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", Arial;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   background-color: #050505;
   color: #BFBFBF;
@@ -8,19 +8,21 @@ body {
 
 h2 {
   color: #CFCFCF;
-  font-family: "Roboto", Arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 52px;
+  font-weight: 300;
 }
 
 h3 {
   color: #77BBFF;
-  font-family: "Roboto", Arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
+  font-weight: 300;
 }
 
 p {
   color: #BFBFBF;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 a, a:visited, a:active {
@@ -48,7 +50,8 @@ hr {
 }
 
 #topbar {
-  font-family: "Roboto", Arial;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   background-color: #171717;
   padding: 10px;
   position: fixed;
@@ -91,9 +94,15 @@ hr {
 }
 
 #intro {
-  width: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+#aboutme {
+  margin: 20px;
+  width: 400px;
 }
 
 #mephoto {
@@ -116,7 +125,8 @@ hr {
 }
 
 #projects {
-  display: table;
+  display: flex;
+  flex-direction: row;
 }
 
 #projectcol {
@@ -125,8 +135,8 @@ hr {
 }
 
 #portproject {
-  width: 80%;
-  margin: 40px;
+  width: 45%;
+  margin: 30px;
   margin-left: auto;
   margin-right: auto;
   position: relative;

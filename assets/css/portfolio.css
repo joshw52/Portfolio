@@ -94,14 +94,21 @@ hr {
 }
 
 #intro {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #aboutme {
-  margin: 20px;
+  margin-right: 45px;
+  width: 400px;
+}
+
+#mephotoContainer {
   width: 400px;
 }
 
@@ -182,9 +189,23 @@ hr {
   font-size: 32px;
 }
 
+#contactContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  margin-top: 15px;
+}
+
 #contactButtons {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
+}
+
+#contactButtons a {
+  margin: 0px 8px;
 }
